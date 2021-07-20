@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    border: 1px solid red;
+}
+
+#statement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(/resource/background-statement.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#band {
+    background-color: white;
+    width: 100%;
+}
+
+#portfolio {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#boxcenter {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+img {
+    width: 100px;
+}
+
+#investment {
+    background-image: url(/resource/background-our-team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#name, #role {
+}
