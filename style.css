@@ -22,7 +22,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     height: 500px;
-    background-image: url(/resource/background-statement.jpg);
+    background-image: url(./resource/background-statement.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ img {
 }
 
 #investment {
-    background-image: url(/resource/background-our-team.jpg);
+    background-image: url(./resource/background-our-team.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
