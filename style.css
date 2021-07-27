@@ -9,12 +9,11 @@ body {
 }
 
 
-nav ul {
+header ul {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     list-style: none;
-    border: 1px solid red;
 }
 
 #statement {
@@ -47,8 +46,14 @@ nav ul {
     align-items: center;
     }
 
-img {
-    width: 100px;
+#boxcenter img {
+    width: 200px;
+}
+
+#investment img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
 
 #investment {
@@ -62,5 +67,9 @@ img {
     justify-content: space-around;
 }
 
-#name, #role {
+#member {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px;
 }
